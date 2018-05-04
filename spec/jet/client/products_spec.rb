@@ -136,7 +136,6 @@ RSpec.describe Jet::Client::Orders, '#get_product' do
   end
 end
 
-
 RSpec.describe Jet::Client::Orders, '#archive_sku' do
   context 'archive sku that exists' do
     it 'returns a 204 on success' do
@@ -276,5 +275,3 @@ RSpec.describe Jet::Client::Orders, '#get_products' do
     end
   end
 end
-
-
